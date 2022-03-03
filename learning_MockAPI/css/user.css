@@ -1,0 +1,24 @@
+#products{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    padding: 3%;
+    row-gap: 1%;
+    column-gap: 2%;
+    justify-content: center;
+}
+.product-img{
+    height: 10rem;
+    width: 10rem;
+}
+.product{
+    text-align: center;
+    border: #000 solid 2px;
+    border-radius: 1rem;
+    padding: 5% 2%;
+}
+.product-title{
+    height: 2em;
+}
+.price{
+    color: red;
+}
